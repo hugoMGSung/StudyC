@@ -3,6 +3,6 @@
 int main() {
 	printf("Hello World!");
 	// 여기는 주석입니다.
-	// This is a comment.
+	// This is a comment. ㅇㄹㄹㄴㅇㄹ
 	return 0;
 }
