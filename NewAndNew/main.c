@@ -7,5 +7,10 @@
 int main() {
 	printf("Hello World!");
 
+	int b = 0;
+	scanf("%d", &b);
+
+	printf("Value of b = %d", b);
+
 	return 0;
 }
