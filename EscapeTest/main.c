@@ -7,6 +7,11 @@
 
 int main() {
 	printf("Hello World!\n");
+	printf("Be happy\n");
+	printf("1234567890\n");
+	printf("My\tFriend\n");
+	printf("Goo\bd\tchance\n");
+	printf("Cow\rW\a\n");
 
 	// type here
 
