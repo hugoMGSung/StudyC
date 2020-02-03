@@ -9,29 +9,18 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-void fruit(int count);
-void recursive(int count);
+#include <string.h>
 
 // 메인함수
 int main(void) 
 {
-    fruit(1);
+    char str[80];
+
+    printf("문자열 입력 :");
+    gets(str);
+    printf("문자열 출력 :");
+    puts(str);
 
 	system("pause");
 	return EXIT_SUCCESS;
-}
-
-void recursive(int count) {
-    if (count > 0) {
-        recursive(count - 2);
-    }
-    printf("%d\n", count);
-}
-
-void fruit(int count) {
-    //printf("apple\n");
-    if (count == 3) return;
-    fruit(count + 1);
-    printf("jam\n");
 }
