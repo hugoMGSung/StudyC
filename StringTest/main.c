@@ -7,8 +7,20 @@
 
 int main() {
 	
+	char fruit[20] = "strawberry";
+
+	printf("%s \n", fruit);
+
+	int age;
+	double height;
+
+	printf("나이와 키를 입력 : ");
+	scanf("%d%lf", &age, &height);
+	printf("나이 %d, 키 %.1f\n", age, height);
+
 	char grade;
 	char name[20];
+	getchar();
 
 	printf("학점을 입력하세요 : ");
 	scanf("%c", &grade);
