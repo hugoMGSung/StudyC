@@ -16,7 +16,7 @@ int main(void)
     int num, grade;
     int ch;
 
-    ch = fgetc()
+    ch = getchar();
     printf("학번 : %d, 학점 : %c\n", num, grade);
 
 	system("pause");
