@@ -20,15 +20,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="sub.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h" />
+    <ClInclude Include="sub.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{e68634da-9ab9-425e-b316-2f39c3dfa22b}</ProjectGuid>
+    <ProjectGuid>{50a54e6d-5366-43d5-8e0f-5fe90aa3f316}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SwitchTestApp</RootNamespace>
+    <RootNamespace>DivideSrcApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

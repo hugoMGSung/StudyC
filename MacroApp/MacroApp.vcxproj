@@ -21,14 +21,11 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="main.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{e68634da-9ab9-425e-b316-2f39c3dfa22b}</ProjectGuid>
+    <ProjectGuid>{a9242303-a688-40bf-8704-5ba9f634a772}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SwitchTestApp</RootNamespace>
+    <RootNamespace>MacroApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

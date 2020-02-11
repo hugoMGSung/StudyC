@@ -10,6 +10,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#pragma warning(disable: 4996)
+
 // 메인함수
 int main(void) {
     int rank = 0, res = 0;

@@ -19,16 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="average.c" />
+    <ClCompile Include="input.c" />
     <ClCompile Include="main.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="main.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{e68634da-9ab9-425e-b316-2f39c3dfa22b}</ProjectGuid>
+    <ProjectGuid>{9416d4f7-5316-4c73-b7c7-3e7317e2b56c}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SwitchTestApp</RootNamespace>
+    <RootNamespace>ExternStaticApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
