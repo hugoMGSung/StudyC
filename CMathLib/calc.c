@@ -1,7 +1,7 @@
 /*
 	file: calc.c
 	date: 2020.02.11.
-	edior: ȫ�浿
+	edior: MyungGun Sung....
 */
 
 #include <stdio.h>
